@@ -1,0 +1,14 @@
+{
+  "name": "Mapa del Amazonas",
+  "version": "1.0.0",
+  "description": "Servicio OGC de Amazonas",
+  "attribution": "OSM", 
+  "type": "baselayer",
+  "color": "#FFFFFF",
+  "format": "jpg",
+  "minzoom": "5",
+  "maxzoom": "15",
+  "bounds": "-74.795,-4.171,-68.687,-0.176",
+  "scale": "1",
+  "profile": "mercator"
+}
