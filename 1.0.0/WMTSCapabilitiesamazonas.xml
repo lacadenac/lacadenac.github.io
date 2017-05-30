@@ -4,7 +4,7 @@
   <ows:ServiceIdentification>
     <ows:ServiceType>OGC WMTS</ows:ServiceType>
     <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
-    <ows:Title>Servicios OGC WMTS de Barranquilla</ows:Title>
+    <ows:Title>Servicios OGC WMTS de Amazonas</ows:Title>
     <ows:Abstract xml:lang="es">Servicio OGC WMTS de Amazonas</ows:Abstract>
     <ows:Keywords>
       <ows:Keyword>Amazonas</ows:Keyword>
@@ -20,7 +20,7 @@
   <Contents>
     <Layer>
       <ows:Identifier>amazonas</ows:Identifier>
-      <ows:Title>Mapa base de Barranquilla</ows:Title>
+      <ows:Title>Mapa base de Amazonas</ows:Title>
       <ows:Abstract>Mapa base del amazonas a partir de datos OSM</ows:Abstract>
       <ows:BoundingBox crs="urn:ogc:def:crs:EPSG:6.18.3:3857">
         <ows:LowerCorner>-8326141.31388 -464724.245465</ows:LowerCorner>
@@ -37,7 +37,7 @@
       <TileMatrixSetLink>
         <TileMatrixSet>z5to15</TileMatrixSet>
       </TileMatrixSetLink>
-      <ResourceURL format="image/jpeg" resourceType="tile" template="http://localhost/tileserver/amazonas/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
+      <ResourceURL format="image/jpeg" resourceType="tile" template="https://lacadenac.github.io/Teselas/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
     </Layer>
     <TileMatrixSet>
       <ows:Identifier>z5to15</ows:Identifier>
